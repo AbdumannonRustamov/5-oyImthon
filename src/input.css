@@ -3,6 +3,12 @@
     themes: light --default, dark --prefersdark, halloween; 
 } 
 
+@layer base {
+  * {
+    margin: 0;
+  }
+}
+
 @layer components {
     html,
     body {
